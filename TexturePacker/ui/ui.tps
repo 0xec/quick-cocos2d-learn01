@@ -4,9 +4,9 @@
         <key>fileFormatVersion</key>
         <int>3</int>
         <key>texturePackerVersion</key>
-        <string>3.3.4</string>
+        <string>3.6.0</string>
         <key>fileName</key>
-        <string>/Users/cocos/dev/workspace/workdir/quick-x/Brave/TexturePacker/ui/ui.tps</string>
+        <string>F:/source/projects/company/Cocos/Brave/TexturePacker/ui/ui.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -38,9 +38,23 @@
         <key>dataFormat</key>
         <string>cocos2d</string>
         <key>textureFileName</key>
-        <filename>../../res/image/ui.pvr.ccz</filename>
+        <filename>../../res/image/ui.png</filename>
         <key>flipPVR</key>
         <false/>
+        <key>pvrCompressionQuality</key>
+        <enum type="SettingsBase::PvrCompressionQuality">PVR_QUALITY_NORMAL</enum>
+        <key>mipMapMinSize</key>
+        <uint>32768</uint>
+        <key>etc1CompressionQuality</key>
+        <enum type="SettingsBase::Etc1CompressionQuality">ETC1_QUALITY_LOW_PERCEPTUAL</enum>
+        <key>dxtCompressionMode</key>
+        <enum type="SettingsBase::DxtCompressionMode">DXT_PERCEPTUAL</enum>
+        <key>jxrColorFormat</key>
+        <enum type="SettingsBase::JpegXrColorMode">JXR_YUV444</enum>
+        <key>jxrTrimFlexBits</key>
+        <uint>0</uint>
+        <key>jxrCompressionLevel</key>
+        <uint>0</uint>
         <key>ditherType</key>
         <enum type="SettingsBase::DitherType">NearestNeighbour</enum>
         <key>backgroundColor</key>
@@ -66,7 +80,7 @@
         <key>textureSubPath</key>
         <string></string>
         <key>textureFormat</key>
-        <enum type="SettingsBase::TextureFormat">pvr2ccz</enum>
+        <enum type="SettingsBase::TextureFormat">png</enum>
         <key>borderPadding</key>
         <uint>2</uint>
         <key>maxTextureSize</key>
@@ -148,6 +162,8 @@
         <key>autoAliasEnabled</key>
         <true/>
         <key>trimSpriteNames</key>
+        <false/>
+        <key>prependSmartFolderName</key>
         <false/>
         <key>cleanTransparentPixels</key>
         <true/>
